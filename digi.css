@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size:40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e5560f;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #e14911;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    
+    color: #d2590e;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#about, #projects, #contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:darkred;
+    text-align: center;
+    
+    
+padding:5px 5px;
+    
+}
+
+
+
+
+    
+
+div {
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 2px;
+    border-radius: 10px;
+    display:inline-block;
+    
+    text-align: center;
+    
+    
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    background: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+h1 {
+    font-size: 2em;
+    color: black;
+    border:5px solid black;
+    display: inline-block;
+    color:rgb(7, 7, 51);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+p {
+    font-size: 20px;
+    font-family:Arial;
+    
+    
+}
+#skills{
+    text-align:center;
+    padding: 10px;
+    
+
+}
+.image{
+    height: 400px;
+    width: 300px;
+}
+h3 {
+    font-size: 2em;
+    text-align: center;
+    color: darkred;
+}
+li {
+    font-size: 20px;
+    text-align: center;
+}
+
+.moon {
+font-size: 15px;
+}
+.img {
+    display: flex;
+}
+
+    
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+/* .black {
+    background-image: 
+} */
+.main{
+    /* background-image: url("https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"); */
+    background-image: url('https://img.freepik.com/premium-photo/abstract-purple-red-background-with-subtle-flowers-rangoli-pattern_1000823-278860.jpg?w=740');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
